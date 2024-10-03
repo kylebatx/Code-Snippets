@@ -6,5 +6,5 @@
    Header always set X-XSS-Protection "1; mode=block"
    Header set Referrer-Policy "no-referrer-when-downgrade"
    Header always append X-Frame-Options SAMEORIGIN
-   Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=();"
+   Header always set Permissions-Policy "fullscreen=(self), payment=()"
 </ifModule>
